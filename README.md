@@ -44,8 +44,6 @@ ploty <- function(x, y, color){
           axis.text = element_text(size = 10), 
           plot.title = element_text(size = 10))
 }
-```
-```{.r }
  (sac <- ploty(x = occ_year$year, y = occ_year$acumulado, 'black'))
 # ggsave('sac.png', sac, width = 20, height = 10, units = "cm")
 ```
@@ -94,8 +92,6 @@ plotyDouble <- function(x, y, z, color1, color2, temprange){
          plot.title = element_text(size = 18))+
   geom_vline(xintercept = temprange, linetype = "dashed")
 }
-```
-```{.r }
 (sacRecs <- plotyDouble(x = occ_year$year, 
                    y = occ_year$Counts, 
                    z = occ_year$acumulado,
