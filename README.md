@@ -50,7 +50,7 @@ sacs <- occ_year[!is.na(occ_year$acumulado),]
 (sacPlot <- ploty(x = sacs$year, y = sacs$acumulado, 'black'))
 # ggsave('sac.png', sacPlot, width = 20, height = 10, units = "cm")
 ```
-![image](https://github.com/cRonFer/SpeciesAccumulationCurves/assets/76005368/2ac7d552-75f4-45e1-a802-ba958e69efb6)
+![image](https://github.com/cRonFer/SpeciesAccumulationCurves/assets/76005368/791923c2-8a33-45a0-9cf9-babd744f246f)
 
 ## Plot: Occurrences by year 
 ```{.r }
